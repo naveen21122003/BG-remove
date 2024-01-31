@@ -14,7 +14,7 @@ def main():
 
     if uploaded_file is not None:
         st.image(uploaded_file, caption="Uploaded image")
-        st.write("processing......")
+        st.write("Loading......")
         result=removebg(uploaded_file)
         st.image(result,caption="Result")
 
